@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Start</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<meta name="description" content="" />
+	<link rel="icon" href="favicon.png"/>
+	<link rel="stylesheet" href="css/normalize.css" />
+	<link rel="stylesheet" href="css/layout.css" />
+	<link rel="stylesheet" href="css/style.css" />
+
+</head>
+<body>
+	<div class="ba-container">
+		<form class="ba-route" method="post">
+			<label>
+				Start
+			</label> 
+			<input type="text" name="start" id="start" placeholder="Введите адрес" required></input>
+			<label>Finish</label>
+			<input type="text" name="finish" id="finish" placeholder="Введите адрес" required></input>
+			<button class="ba-button" type="button">Маршрут</button>
+		</form>
+		<div class="ba-map"></div>
+		
+	</div>
+	
+	
+	<script src="js/main.js"></script>
+    
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBtmj6V4mqdT9TsidHzWwYYYeeAffjnQYM"
+    async defer></script>
+
+</body>
+</html>
